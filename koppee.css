@@ -1,0 +1,558 @@
+
+.firstpagediv{
+    height: 800px;
+    width: 101%;
+    margin-top: -17px;
+    margin-left: -8px;
+    background-image: url('carousel-1.jpg');
+    background-size: cover;
+}
+
+.bg-colordiv{
+    background-color: #33211db3;
+    height: 800px;
+}
+
+body{
+    color: white;
+    background-color: #FFFBF2;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+
+.h1{
+    font-size: 54px;
+    font-weight: 700;
+    font-family: sans-serif;
+    
+}
+
+
+li{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 57px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+li:hover {
+    transform: scale(1.2);
+    color: #DA9F5B;
+}
+
+.homeli{
+    margin-left: 600px;
+    color: #DA9F5B;
+}
+
+.pageselect{
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    width: 80px;
+    transition: transform 0.3s ease;
+}
+
+.pageselect:hover{
+    transform: scale(1.2);
+    color: #DA9F5B;
+}
+
+.h2{
+    color: #DA9F5B;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 180px;
+    transition: transform 0.3 ease;
+    animation-name: h2;
+    animation-duration: 1.5s;
+    
+}
+
+@keyframes h2 {
+    from { transform: translateY(-400px);}
+    to {transform: translateY(0);}
+}
+
+
+.bigh1{
+     font-size: 120px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -20px;
+    animation-name: bigh1;
+    animation-duration: 1.5s;
+    
+}
+
+@keyframes bigh1 {
+  from {transform: translatex(-50%); }
+  to {transform: translatex(0); }
+}
+
+
+.sinceh2{
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -70px;
+    animation-name: sinceh2;
+    animation-duration: 1.5s;
+}
+
+@keyframes sinceh2{
+    from {transform: translateY(400px);}
+    to {transform: translateY(0);}
+}
+
+.hoverh2{
+    transition: transform 0.3s ease;
+}
+
+.hoverh2:hover{
+    transform: scale(1.2);
+}
+
+
+.btmimg{
+    margin-top: 215px;
+}
+
+.linediv{
+    height: 100px;
+    width:0%;
+    border: 1px solid #DA9F5B;
+    margin-top: 100px;
+}
+
+.abouth4{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #DA9F5B;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.Servingh1{
+    font-size: 54px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -20px;
+    color: rgba(0, 0, 0, 0.83);
+}
+
+.ourh1{
+    font-size: 39px;
+    height: 47px;
+    width: 290px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.83);
+}
+
+.h5{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:rgba(0, 0, 0, 0.83) ;
+}
+
+.parafirst{
+    color: #555;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.Learnbtn1{
+    height: 41px;
+    width: 140px;
+    background-color: #33211D;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    border: none;
+}
+
+.learnbtn2{
+    height: 41px;
+    width: 140px;
+    background-color: #DA9F5B;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    border: none;
+}
+
+.middleimg{
+    
+}
+
+.threeh5{
+    color:#DA9F5B;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: -2px;
+}
+
+.secondh5{
+    color:#DA9F5B;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: -25px;
+}
+
+.thirdh5{
+    color:#DA9F5B;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: -25px;
+}
+
+.fdh4{
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.83);
+    margin-left: 95px;
+    margin-top: -39px;
+
+}
+
+.truckimg{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.para4{
+    color: #555;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+
+.offerdiv{
+    background-image: url('bg.jpg'); 
+    background-size: cover;
+    height: 500px;
+    width: 101%;
+    margin-left: -8px;
+    margin-bottom: 100px;
+}
+
+.offh1{
+    font-size: 69px;
+    font-family: sans-serif;
+    color: #DA9F5B;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sundayh1{
+    font-size: 39px;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.sundayh4{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.inputemail{
+    height: 60px;
+    width: 248px;
+    border: none;
+    background-color: #FFFBF2;
+    font-size: 16px;
+    color: gray;
+    font-family: sans-serif;
+
+}
+
+.signup{
+    height: 62px;
+    width: 114px;
+    border: none;
+    background-color: #DA9F5B;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+.coffeeh1{
+    font-size: 38px;
+    font-family: sans-serif;
+    color:black;
+    margin-bottom: 30px;
+}
+
+.Coffeeh4{
+   font-size: 24px;
+   font-family: sans-serif;
+   color:black;
+   margin-left: 25px; 
+}
+
+.Coffeep{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #555;
+    margin-left: 25px;
+    margin-top: -15px;
+
+}
+
+.bgimg30off{
+    height: 650px;
+    width: 465px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.bgcolor30off{
+    height: 650px;
+    background-color:#33211de6;
+}
+
+.tablediv{
+    height: 650px;
+    width: 465px;
+    background-color: #33211d;
+}
+
+.overlay-top{
+    height: 15px;
+    width: 465px;
+}
+
+.off30h1{
+    font-size: 69px;
+    font-family: sans-serif;
+    color: #DA9F5B;
+    margin-top: 100px;
+
+}
+
+.Onlineh1{
+    font-size: 39px;
+    font-family: sans-serif;
+    color: aliceblue; 
+    margin-top: -30px;  
+}
+
+.off30p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.threesentences{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.bookh1{
+    font-size: 39px;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.inp{
+    height: 49.6px;
+    width: 354px;
+    background: none;
+    border: 2px solid #DA9F5B;
+    margin: 10px;
+    color: grey;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.is{
+    height: 52px;
+    width: 358px;
+    background: none;
+    border: 2px solid #DA9F5B;
+    margin: 10px;
+    color: grey;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.bookbtn{
+    height: 58px;
+    width: 354px;
+    background-color: #DA9F5B;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.overlay-bottom2{
+    height: 15px;
+    width: 465px;
+    margin-top: 40px;
+}
+
+.overlay-bottom1{
+    height: 15px;
+    width: 465px;
+    margin-top: 51px;
+}
+
+.Client{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.pp{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #555;
+}
+
+.lastbgimg{
+    height: 480px;
+    width: 101%;
+    margin-left: -8px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.lastbgcolor{
+    height: 480px;
+    width: 100%;
+    background-color: #33211dd8;
+    
+}
+
+.lasth4{
+    font-size: 24px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: aliceblue;
+    margin-top: 120px;
+}
+
+.locationp{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.callp{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.emailp{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.h6{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-top: 25px;
+}
+
+.timep{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-top: -20px;
+}
+
+.inputemail2{
+    height: 51px;
+    width: 230px;
+    border: none;
+    background-color: #FFFBF2;
+    font-size: 16px;
+    color: gray;
+    font-family: sans-serif;
+
+}
+
+.signup2{
+    height: 53px;
+    width: 114px;
+    border: none;
+    background-color: #DA9F5B;
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+
+}
+
+.Testimonialshover{
+    transition: transform 0.3s ease;
+}
+
+.Testimonialshover:hover{
+    transform: scale(1.2);
+    box-shadow: 8px 8px 10px #f6e9cc;
+}
+
+.coffeehover{
+    transition: transform 0.3s ease;
+}
+
+.coffeehover:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px #f6e9cc;
+    cursor: pointer;
+
+}
+
+button{
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px #f6e9cc;
+    cursor: pointer;
+}
+
+.serviceshover{
+    transition: transform 0.3s ease;
+}
+
+.serviceshover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
